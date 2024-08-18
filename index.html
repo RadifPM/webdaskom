@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radif's Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/01057ef582.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" style="color: black;" onclick="closemenu()"></i>
+                </ul>
+                <i style="color: black;" class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hello There,<br>I'm <span>Radif</span></h1>
+                <p>Majoring in Engineering Physics<br>Interested in Creative Industrion</p>
+                <p class="kecil">(Especially in Videography)</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------about section------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Video Editing</span><br>Cinematic Video/Short Film</li>
+                                <li><span>Photography</span><br>Event Documentation</li>
+                                <li><span>Yapping</span><br>geda gedi geda geda o</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024 - Now</span><br>Lab Assistant at Basic Computing Laboratory Telkom University</li>
+                                <li><span>2023 - Now</span><br>Education and Training Department at KSR PMI Telkom University</li>
+                                <li><span>2021 - 2023</span><br>Part of Publication & Media Department at State Vocational High School 5 Bekasi</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - Now</span><br>Telkom University<br>Majoring in Engineering Physics</li>
+                                <li><span>2020 - 2023</span><br>State Vocational High School 5 Bekasi<br>Majoring in Software Engineering</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------Portofolio------- -->
+ <div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png" alt="work1">
+                <div class="layer">
+                    <h3 style="color: white;">Product Photography</h3>
+                    <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png" alt="work2">
+                <div class="layer">
+                    <h3 style="color: white;">Video Editing</h3>
+                    <p style="color: white;">bla bla Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png" alt="work3">
+                <div class="layer">
+                    <h3 style="color: white;">Podcast Shooting</h3>
+                    <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+ </div>
+
+<!-- ---contact--- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me!</h1>
+                <p style="color: black;"><i class="fa-solid fa-paper-plane"></i>radifpmofficial@gmail.com</p>
+                <p style="color: black;"><i class="fa-solid fa-phone"></i>+62 895-3334-31355</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/radiif_"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/c/radifpm"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://api.whatsapp.com/send/?phone=62895333431355&text=Hello,+My+Name+is+.....+Can,+i+work+with+you>&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/radifpm"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/cv.jpg" download class="btn btn2">Download My CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Input your name here" required>
+                    <input type="email" name="Email" placeholder="Input your email here" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p style="color: white;">Copyright © Radif Putra Permana | Academy 2024</p>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
